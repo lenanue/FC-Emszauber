@@ -103,6 +103,7 @@
       width: 80%;
       height: 350px;
       font-weight: 600;
+      font-size: 18px;
     }
 
     a.eins {
@@ -121,7 +122,9 @@
       height: 350px;
       width: 30%;
     }
+  .kästchen-groesse {width: 200px; height: 25px}
 
+  .“ButtonClass“
   </style>
 
 </head>
@@ -170,17 +173,17 @@
       <fieldset>
         <legend>Anmeldeformular</legend>
 
-        <p>Vorname: <input type="text">  Nachname: <input type="Vorname"> <br></p>
-        Geburtsdatum: <input type="date"><br>
-        <p> Straße: <input type="text"> Hausnummer: <input type="number"> <br>
-          PLZ: <input type="number"> Ort: <input type="text"> <br> </p>
-        <p>Telefonnummer: <input type="number"> Handynummer: <input type="number"> <br> </p>
-        <p>E-Mail Adresse: <input type="email"> Passwort:     <input type="password"> <br></p>
+        <p>Vorname: <input class="kästchen-groesse"; type="text">  Nachname: <input class="kästchen-groesse"; type="Vorname"> <br></p>
+        Geburtsdatum: <input class="kästchen-groesse"; type="date"><br>
+        <p> Straße: <input class="kästchen-groesse"; type="text"> Hausnummer: <input class="kästchen-groesse"; type="number"> <br>
+          PLZ: <input class="kästchen-groesse"; type="number"> Ort: <input class="kästchen-groesse"; type="text"> <br> </p>
+        <p>Telefonnummer: <input class="kästchen-groesse"; type="number"> Handynummer: <input class="kästchen-groesse"; type="number"> <br> </p>
+        <p>E-Mail Adresse: <input class="kästchen-groesse"; type="email"> Passwort:     <input class="kästchen-groesse"; type="password"> <br></p>
         </p>
 
-        <input type="checkbox" >
-        <em> Bleib am Ball!</em> <br>
-        <button>Anmelden</button>
+        <form>
+        <input class=ButtonClass type="submit" value=Anmelden onclick="window.location.href='Vielen Dank für die Anmeldung.html'"/>
+        </form>
 
       </fieldset>
     </div>
