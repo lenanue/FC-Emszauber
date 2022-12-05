@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Index fertig">
+    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Anmeldeformular">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Anmeldeformular.html" beforeDir="false" afterPath="$PROJECT_DIR$/Anmeldeformular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test 23.11..html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +64,7 @@
       <workItem from="1670153673627" duration="998000" />
       <workItem from="1670182508697" duration="33000" />
       <workItem from="1670182548570" duration="374000" />
-      <workItem from="1670239298285" duration="13637000" />
+      <workItem from="1670239298285" duration="15613000" />
     </task>
     <task id="LOCAL-00001" summary="Anmeldeformular">
       <created>1669994688377</created>
@@ -148,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670252440583</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Anmeldeformular">
+      <created>1670253620343</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670253620343</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,12 +175,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Anmeldeformular" />
     <MESSAGE value="Anmeldeformular überarbeitet" />
     <MESSAGE value="Impressum in Index verlinkt" />
     <MESSAGE value="Impressum in Index verlinkt&#10;Fusszeile" />
     <MESSAGE value="Navigationsleisten eingefügt" />
     <MESSAGE value="Index fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Index fertig" />
+    <MESSAGE value="Anmeldeformular" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anmeldeformular" />
   </component>
 </project>
