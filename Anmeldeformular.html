@@ -60,7 +60,8 @@
 
     .maps-right { /*Text rechts neben Karte anpassen*/
       margin-left: 16px; /*Abstand zum weißen Hintergrund vergrößern um Text abzuheben*/
-      width: 30%; /*Text nimmt 30% des Raumes ein*/}
+      width: 30%; /*Text nimmt 30% des Raumes ein*/
+      height: 350px}
 
     .maps-frame {/*Google Maps Karte einfügen*/
       border: 0;
@@ -93,12 +94,12 @@
       height: 350px;
       font-weight: 600;
       font-size: 18px;
-      display: flex;
+      ;
     }
 
     a.eins { /*Aussehen der Links für den Navigationsbereich anpassen*/
       font-size: 25px;
-      margin: 20px;}
+      margin: 20px;} /*Abstand vergrößern*/
 
     a.zwei { /*Aussehend es Links für den Text im Anmeldeformular anpassen*/
       color: black;
@@ -112,12 +113,34 @@
       height: 350px;
       width: 30%;
     }
-  .kästchen-groesse {width: 200px; height: 25px}
+  .kästchen-groesse {width: 200px; height: 25px; }
 
-  .ButtonClass {font-size: 50px} /*Größe Anmledebutton anpassen*/
+  .ButtonClass {font-size: 15px;} /*Größe Anmledebutton anpassen*/
 
+  .Tabelle {margin: 16px} /*Abstand zum Container vergrößern*/
 
   </style>
+
+  <script language="JavaScript"> <!--JavaScript für Animierte Effekte-->
+  if (document.formular.user.value =="")
+    { alert("Bitte Ihren Namen eingeben!");
+    document.Formular.User.focus();
+    return false;}
+
+  if (document.Formular.Ort.value =="")
+    {document.Formular.Ort.focus();
+    return false;}
+
+  if (document.formular.mail.value =="")
+    {document.formular.mail.focus();
+    return false}
+
+  if (document.formular.number.value =="")
+  {document.formular.number.focus();
+    return false}
+
+
+  </script>
 
 </head>
 
@@ -148,32 +171,57 @@
 
   <div class="Anmeldebereich">
     <div class="text-container Anmeldetext">
-      <h2><u>Anmeldeformular</u></h2>
+      <h2><u>Werde Teil unseres Teams!</u></h2>
 
       <p>
-        Möchtest du oder deine Kinder mit uns an der Ems zaubern?<br>
+      <p>Möchtest du oder deine Kinder mit uns an der Ems zaubern?<br></p>
         Alles was du dafür erledigen musst, ist das untere Anmledeformular ausfüllen und unser Trainer meldet sich bei dir!<br>
         <br>
-        Vorab kannst du auch gerne zu einem Training erscheinen. <br>
-        Wir freuen uns auf dich!<br>
+        <p>Vorab kannst du auch gerne zu einem Training erscheinen.
         <br>
-        <a class="zwei" href="Spielpläne.html"> Klicke hier </a> um zu unseren Trainingszeiten zu gelangen.
-      Wir freuen uns auf dich. <br>
+        <a class="zwei" href="Spielpläne.html"> Klicke hier </a> um zu unseren Trainingszeiten zu gelangen.<br>
+          Wir freuen uns auf dich. <br></p>
     </div>
 
     <div class="Anmeldeformular">
       <fieldset>
         <legend>Anmeldeformular</legend>
-          <p>Vorname: <input class="kästchen-groesse"; type="text">  Nachname: <input class="kästchen-groesse"; type="Vorname"> <br></p>
-          Geburtsdatum: <input class="kästchen-groesse"; type="date"><br>
-          <p> Straße: <input class="kästchen-groesse"; type="text"> Hausnummer: <input class="kästchen-groesse"; type="number"> <br>
-          PLZ: <input class="kästchen-groesse"; type="number"> Ort: <input class="kästchen-groesse"; type="text"> <br> </p>
-          <p>Telefonnummer: <input class="kästchen-groesse"; type="number"> Handynummer: <input class="kästchen-groesse"; type="number"> <br> </p>
-          <p>E-Mail Adresse: <input class="kästchen-groesse"; type="email"> Passwort:     <input class="kästchen-groesse"; type="password"> <br> </p>
+        <form>
+        <table class="Tabelle AF"> <!--Tabelle: th=Spalten; td=Zeilen ; Unsichtabre Tabelle für Übersichtlichkeit-->
+          <tr>  <th align=right>Vorname: </th>
+                <td> <input class="kästchen-groesse"; type="text"  ></td>
+                <th align="right">Nachname: </th>
+                <td> <input class="kästchen-groesse"; type="text"  ></td>
+          </tr>
+
+          <tr> <th align=right>Geburtsdatum: </th>
+               <td> <input class="kästchen-groesse"; type="date"  ></td>
+          </tr>
+
+          <tr> <th align="right">Straße: </th>
+               <td> <input class="kästchen-groesse"; type="text"  ></td>
+               <th align="right">Hausnummer: </th>
+               <td> <input class="kästchen-groesse"; type="number"  ></td>
+          </tr>
+
+          <tr> <th align="right">Postleitzahl: </th>
+               <td> <input class="kästchen-groesse"; type="number"  ></td>
+               <th align="right">Ort: </th>
+               <td> <input class="kästchen-groesse"; type="text"  ></td>
+          </tr>
+
+          <tr> <td align="right">Telefonnummer: </td>
+               <td> <input class="kästchen-groesse"; type="number"  ></td>
+               <td align="right">Mobilnummer: </td>
+               <td> <input class="kästchen-groesse"; type="number"  ></td>
+          </tr>
+        </table>
+        </form>
+
             <!--Button mit Link, welcher auf eine "Danke für die Anmeldung" Homepage führt-->
-            <a href="Vielen%20Dank%20für%20die%20Anmeldung.html"; class="ButtonClass">
-              <button class="btn btn-primary btn-lg">Anmelden</button>
-            </a>
+        <form method="get" action="Vielen%20Dank%20für%20die%20Anmeldung.html">
+          <button class="ButtonClass" >Anmelden</button>
+        </form>
       </fieldset>
     </div>
   </div>
@@ -185,7 +233,7 @@
             allowfullscreen="" loading="lazy"></iframe>
 
     <div class="text-container maps-right">
-      <p><h3>Anfahrt</h3></p>
+      <p><h2><u>Anfahrt</u></h2></p>
       Sie können uns im wunderschönen Lingen (Ems) finden.<br>
       <p>Fakultät Management, Kultur und Technik<br>
         Kaiserstraße 10c<br>
