@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Impressum in Index verlinkt&#10;Fusszeile">
-      <change afterPath="$PROJECT_DIR$/Bildergalerie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mannschaften.html" afterDir="false" />
+    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Navigationsleisten eingefügt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Anmeldeformular.html" beforeDir="false" afterPath="$PROJECT_DIR$/Anmeldeformular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IMGhhh_0005.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Menüleiste.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wappen.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
       <workItem from="1670153673627" duration="998000" />
       <workItem from="1670182508697" duration="33000" />
       <workItem from="1670182548570" duration="374000" />
-      <workItem from="1670239298285" duration="8090000" />
+      <workItem from="1670239298285" duration="11379000" />
     </task>
     <task id="LOCAL-00001" summary="Anmeldeformular">
       <created>1669994688377</created>
@@ -132,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670246931664</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Navigationsleisten eingefügt">
+      <created>1670247817949</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670247817949</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +159,7 @@
     <MESSAGE value="Anmeldeformular überarbeitet" />
     <MESSAGE value="Impressum in Index verlinkt" />
     <MESSAGE value="Impressum in Index verlinkt&#10;Fusszeile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Impressum in Index verlinkt&#10;Fusszeile" />
+    <MESSAGE value="Navigationsleisten eingefügt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Navigationsleisten eingefügt" />
   </component>
 </project>
