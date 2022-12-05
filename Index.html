@@ -2,96 +2,136 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Index</title>
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Index</title>
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <style>
+    body {
+      background-color: #F3F5F6;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
 
-    .header-image {width: 100%; object-fit: cover}
-    .headline {color: darkolivegreen; flex: 1}
-    .navbar {display: flex; justify-content: space-between; align-items: center}
-    .maps-container {display: flex; justify-content: space-between; align-items: center; width: 70%}
-    .Team-Picture {background-color: white; padding: 16px; width: 400px; height: 270px}
-    .text-maps-container {background-color: white; padding: 8px; color: darkolivegreen; width:960px ;font-weight: 600; width: 30%}
-    .Anfahrt {background-color: white; padding: 16px; }
-    .legal-content {padding: 16px}
-    .legal-text { margin-right: 16 px}
+    .header-image {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      object-position: 50% 30%;
+      display: block;
+    }
 
-    /*hhh*/
+    .headline {
+      color: mediumblue;
+      flex: 1;
+    }
 
-    a.eins {text-decoration:none;
-      color: darkolivegreen;
-      margin-right:18px;
-      font-weight: 550}
-    a.eins:hover { text-decoration: underline; }
+    .image-container {
+      background-color: white;
+      padding: 16px;
+    }
 
-    a.zwei {color: black;
-      text-decoration: none;}
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-    a.zwei:hover {color: darkolivegreen}
+    a {
+      color: mediumblue;
+      text-decoration: none;
+      margin-left: 16px;
+      font-weight: 700;
+    }
 
+    a:hover {
+      text-decoration: underline;
+    }
 
-    body {background-color: #F3F5F6; padding-left: 100px; padding-right: 100px;}
+    .text-highlight {
+      color: #484846;
+      font-size: 25px;
+    }
 
+    .text-container {
+      background-color: #DEDEDE;
+      padding: 8px;
+      color: #484846;
+      font-weight: 600;
+    }
+
+    .maps-container {
+      margin-top: 16px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .maps-right {
+      margin-left: 16px;
+      width: 30%;
+    }
+
+    .maps-frame {
+      border: 0;
+      height: 350px;
+      width: 70%;
+    }
+
+    .legal-content {
+      padding: 8px;
+    }
+
+    .legal-text {
+      margin-right: 16px;
+    }
   </style>
+
 </head>
 
+</head>
 
 <body>
-
 <div class="navbar">
   <h1 class="headline">
-    FC Emszauber e.V.</h1><br>
+    FC Emszauber e.V.<br> <span class="text-highlight">Wir zaubern an der Ems</span>
+  </h1>
 
   <div>
-    <a class="eins" href="Test%2023.11..html">Hauptmenü</a>
-    <a class="eins" href="#">Termine</a>
-    <a class="eins" href="#">Mannschaften</a>
-    <a class="eins" href="#">Bildergalerie</a>
-    <a class="eins" href="Ticket.jpg">Tickets</a>
-    <a class="eins" href="#"> Neuigkeiten</a>
-    <a class="eins" href="Anmeldeformular.html">Mitglied werden</a>
+    <a href="#">Termine</a>
+    <a href="#">Mannschaften</a>
+    <a href="#">Bildergalerie</a>
+    <a href="Tickets.html">Tickets</a>
+    <a href="Anmeldeformular.html">Mitglied werden</a>
   </div>
 </div>
-<br>
-<h2>Herzlich Willkommen bei dem FC Emszauber e.V.</h2>
-<h4>Wir zaubern an der Ems!</h4>
-<p>
-  Wir sind ein in 2022 gegründeter Fußball-Verein und suchen noch ein paar Mitglieder, welche hochmotiviert sind und bock auf kicken haben!<br>
-  Wenn ihr euch angesprochen fühlt oder euch nicht sicher seid, ob unser verein etwas für wuch ist, dann kommt gerne zu unserem nächsten Training
-<a class="zwei" href="Termine.html"> Hier </a> findest du unsere Trainingszeiten.
-</p>
 
 
 
+<div class="image-container">
+  <img class="header-image" src="Spiel.jpg">
 
-    <div class="Team-Picture">
-      <img class="header-image" src="Header%20Anmeldeformular.jpg">
-    </div>
+  <div class="text-container">
+    Derby-Time mit dem TUS Haren
   </div>
-  <br>
-</div>
 
-<fieldset class="Anfahrt">
+
   <div class="maps-container">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.7902722795693!2d7.320226115732191!3d52.51913447981409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b7864a975bac8b%3A0xfeac3a72115d9d9d!2sCampus%20Lingen%20%E2%80%93%20Hochschule%20Osnabr%C3%BCck!5e0!3m2!1sde!2sde!4v1669979553539!5m2!1sde!2sde"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <div class="text-maps-container">
-      <p><h3>Anfahrt</h3></p>
-      Fakultät Management, Kultur und Technik<br>
-      Kaiserstraße 10c<br>
-      49809 Lingen (Ems)<br>
-      Telefon: 0591 80098-402<br>
-      Fax: 0591 800 98-480<br>
-      E-Mail: s.aster@hs-osnabrueck.de<br>
+
+    <iframe class="maps-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2338.4536960066876!2d11.582279524585873!3d48.129438877529516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7a513e5862fc9652!2sDeutsches%20Museum!5e0!3m2!1sde!2sde!4v1621263996544!5m2!1sde!2sde"
+            allowfullscreen="" loading="lazy"></iframe>
+
+    <div class="text-container maps-right">
+      Ein professionelles Bewerbungsfoto ist Ihr Schlüssel zum Erfolg im ersten Job.
     </div>
   </div>
-</fieldset>
-<br>
+
+</div>
+
 <div class="legal-content">
-  <span class="legal-text"> (c) 2022 - FC Emszauber e.V. </span> | <a class="eins" href="Impressum.html">Impressum und Datenschutz</a>
-  <!--Span für Container-->
+  <span class="legal-text">(c) 2021 - Imaginary Company GmbH</span> | <a href="#">Impressum</a> | <a href="#">Datenschutz</a>
 </div>
 
 </body>
