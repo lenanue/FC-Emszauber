@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Anmeldeformular überarbietet 2">
+    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Anmeldeformular überarbietet Kommentare">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7834bfd6-6536-41fc-91d6-a17d5cc6e6c9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7834bfd6-6536-41fc-91d6-a17d5cc6e6c9.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Anmeldeformular.html" beforeDir="false" afterPath="$PROJECT_DIR$/Anmeldeformular.html" afterDir="false" />
     </list>
@@ -66,6 +67,7 @@
       <workItem from="1670182548570" duration="374000" />
       <workItem from="1670239298285" duration="19102000" />
       <workItem from="1670266411030" duration="2660000" />
+      <workItem from="1670269089796" duration="1568000" />
     </task>
     <task id="LOCAL-00001" summary="Anmeldeformular">
       <created>1669994688377</created>
@@ -179,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670258961641</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Anmeldeformular überarbietet Kommentare">
+      <created>1670269148017</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670269148017</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +214,7 @@
     <MESSAGE value="Anmeldeformular" />
     <MESSAGE value="Anmeldeformular überarbietet" />
     <MESSAGE value="Anmeldeformular überarbietet 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anmeldeformular überarbietet 2" />
+    <MESSAGE value="Anmeldeformular überarbietet Kommentare" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anmeldeformular überarbietet Kommentare" />
   </component>
 </project>
