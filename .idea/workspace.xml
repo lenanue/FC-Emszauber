@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Impressum in Index verlinkt">
+    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Impressum in Index verlinkt&#10;Fusszeile">
+      <change afterPath="$PROJECT_DIR$/Bildergalerie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Mannschaften.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Anmeldeformular.html" beforeDir="false" afterPath="$PROJECT_DIR$/Anmeldeformular.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menüleiste.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +67,7 @@
       <workItem from="1670153673627" duration="998000" />
       <workItem from="1670182508697" duration="33000" />
       <workItem from="1670182548570" duration="374000" />
-      <workItem from="1670239298285" duration="7204000" />
+      <workItem from="1670239298285" duration="8090000" />
     </task>
     <task id="LOCAL-00001" summary="Anmeldeformular">
       <created>1669994688377</created>
@@ -100,7 +104,35 @@
       <option name="project" value="LOCAL" />
       <updated>1670246356689</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Impressum in Index verlinkt">
+      <created>1670246878690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670246878690</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Impressum in Index verlinkt">
+      <created>1670246884573</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670246884573</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Impressum in Index verlinkt&#10;Fusszeile">
+      <created>1670246918842</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670246918842</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Impressum in Index verlinkt&#10;Fusszeile">
+      <created>1670246931664</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670246931664</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +153,7 @@
     <MESSAGE value="Anmeldeformular" />
     <MESSAGE value="Anmeldeformular überarbeitet" />
     <MESSAGE value="Impressum in Index verlinkt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Impressum in Index verlinkt" />
+    <MESSAGE value="Impressum in Index verlinkt&#10;Fusszeile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Impressum in Index verlinkt&#10;Fusszeile" />
   </component>
 </project>
