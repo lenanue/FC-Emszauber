@@ -1,85 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!--Dokumententyp festlegen-->
+<html lang="en"> <!--Programmiersprache festlegen-->
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8"> <!--Umlaute verwenden-->
   <title>Mitglied werden</title>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--IE soll im höchsten verfügbaren Modus laufen-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Größenangabe für PC/Laptop-->
 
   <style>
-    body {
+    body { /*Hintergrundfarbe bestimmen; Seitenabstand festlegen*/
       background-color: #F3F5F6;
       padding-left: 100px;
-      padding-right: 100px;
-    }
+      padding-right: 100px;}
 
-    .header-image {
+    .header-image { /*Grafik zur Homepage gestaltung anpassen */
       width: 100%;
       height: 400px;
       object-fit: cover;
       object-position: 50% 50%;
-      display: block;
-    }
+      display: block;}
 
-    .headline {
+    .headline { /*Name des Vereins: Farbe und größe anpassen*/
       color: mediumblue;
       flex: 1;
-    }
+      font-size: 40px;}
 
-    .image-container {
+    .image-container { /*Inhalt der Homepage von dem Hintergrund abheben*/
       background-color: white;
-      padding: 16px;
-    }
+      padding: 16px;}
 
-    .navbar {
+    .navbar { /*Menüleiste anpassen*/
       display: flex;
-      justify-content: space-between;
+      justify-content: space-between; /*Aufteilung der Menüleiste und Logo in zwei Schichten*/
       align-items: center;
-      font-weight: 700;
-    }
+      font-weight: 700;}
 
-    a {
+    a { /*Link design*/
       color: mediumblue;
       text-decoration: none;
       margin-left: 16px;
-      font-weight: 700;
-    }
+      font-weight: 700;}
 
-    a:hover {
-      text-decoration: underline;
-    }
+    a:hover { /*Link wird sichtbar, wenn man mit der Maus über den Text geht*/
+      text-decoration: underline;}
 
-    .text-highlight {
-      color: #484846;
-      font-size: 25px;
-    }
+    .text-highlight { /*Slogan unter dem Vereinsnamen hervorheben*/
+      color: dimgrey;
+      font-size: 25px;}
 
-    .text-container {
+    .text-container { /*Container für den Text, hervorheben des Textes*/
       background-color: #DEDEDE;
       padding: 8px;
       color: #484846;
-      font-weight: 600;
-    }
+      font-weight: 600;}
 
-    .maps-container {
+    .maps-container { /*Container für Anfahrt-Detials*/
       margin-top: 16px;
-      display: flex;
-      justify-content: space-between;
-    }
+      display: flex; /*gleiche Höhe für Inhalte in dem Container festlegen*/
+      justify-content: space-between; /*Text und Karte nebeneinaner setzen*/}
 
-    .maps-right {
-      margin-left: 16px;
-      width: 30%;
-    }
+    .maps-right { /*Text rechts neben Karte anpassen*/
+      margin-left: 16px; /*Abstand zum weißen Hintergrund vergrößern um Text abzuheben*/
+      width: 30%; /*Text nimmt 30% des Raumes ein*/}
 
-    .maps-frame {
+    .maps-frame {/*Google Maps Karte einfügen*/
       border: 0;
       height: 350px;
-      width: 70%;
+      width: 70%; /*Karte nimmt 70% des Containers ein*/
     }
 
-    .legal-content {
+    .legal-content { /*Impressum und Datenschutz*/
       padding: 8px;
     }
 
@@ -87,17 +76,17 @@
       margin-right: 16px
     }
 
-    .Anmeldebereich {
+    .Anmeldebereich { /*Container für Anmeldebereich*/
       margin-top: 16px;
       display: flex;
       justify-content: space-between;
     }
 
     .wappen-header {
-      padding-right: 30px;
+      padding-right: 30px; /*Abstand zu Vereinslogo und Slogan vergrößern*/
     }
 
-    .Anmeldeformular {
+    .Anmeldeformular { /*Größe und Design des Anmeldeformular anpassen*/
       color: black;
       margin-left: 16px;
       width: 80%;
@@ -106,25 +95,27 @@
       font-size: 18px;
     }
 
-    a.eins {
+    a.eins { /*Aussehen der Links für den Navigationsbereich anpassen*/
       font-size: 25px;
       margin: 20px;}
 
-    a.zwei {
+    a.zwei { /*Aussehend es Links für den Text im Anmeldeformular anpassen*/
       color: black;
-      margin: auto;
+      margin: auto; /*Abstand zum Container anpassen*/
       }
 
-    a.zwei:hover {color: mediumblue }
+    a.zwei:hover {color: mediumblue } /*Link im Anmeldeformular-Text sichtbar machen*/
 
-    .news {
+    .Anmeldetext { /*Größe Text Anmeldebereich*/
       border: 0;
       height: 350px;
       width: 30%;
     }
   .kästchen-groesse {width: 200px; height: 25px}
 
-  .“ButtonClass“
+  .ButtonClass {font-size: 50px} /*Größe Anmledebutton anpassen*/
+
+
   </style>
 
 </head>
@@ -155,9 +146,9 @@
 
 
   <div class="Anmeldebereich">
-    <div class="text-container news">
-      <h2>Anmeldeformular</h2>
-      <br>
+    <div class="text-container Anmeldetext">
+      <h2><u>Anmeldeformular</u></h2>
+
       <p>
         Möchtest du oder deine Kinder mit uns an der Ems zaubern?<br>
         Alles was du dafür erledigen musst, ist das untere Anmledeformular ausfüllen und unser Trainer meldet sich bei dir!<br>

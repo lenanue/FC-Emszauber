@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Anmeldeformular überarbietet">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7834bfd6-6536-41fc-91d6-a17d5cc6e6c9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ball vor Tor.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datenbank" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ecke.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spiel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wappen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pexels-pixabay-262506.jpg" afterDir="false" />
+    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Anmeldeformular überarbietet 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Anmeldeformular.html" beforeDir="false" afterPath="$PROJECT_DIR$/Anmeldeformular.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,15 +32,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -70,7 +64,8 @@
       <workItem from="1670153673627" duration="998000" />
       <workItem from="1670182508697" duration="33000" />
       <workItem from="1670182548570" duration="374000" />
-      <workItem from="1670239298285" duration="19001000" />
+      <workItem from="1670239298285" duration="19102000" />
+      <workItem from="1670266411030" duration="2660000" />
     </task>
     <task id="LOCAL-00001" summary="Anmeldeformular">
       <created>1669994688377</created>
@@ -177,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670255794899</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Anmeldeformular überarbietet 2">
+      <created>1670258961640</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670258961641</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +204,7 @@
     <MESSAGE value="Index fertig" />
     <MESSAGE value="Anmeldeformular" />
     <MESSAGE value="Anmeldeformular überarbietet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anmeldeformular überarbietet" />
+    <MESSAGE value="Anmeldeformular überarbietet 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anmeldeformular überarbietet 2" />
   </component>
 </project>
