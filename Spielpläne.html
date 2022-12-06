@@ -5,49 +5,63 @@
   <title>Spielpläne Rückrunde</title>
 
   <style>
-        *{
-          margin: 30px;
-          padding: 10px;
-          font-family: Calibri, sans-serif;
-          color: mediumblue;
+    /*Schriftgröße_Tabellengröße_Schriftfarbe*/
+     table{
+           font-size: 30px;
           }
+         *{
+           margin: 20px;
+           padding: 7px;
+           min-width: 10px;
+           font-family: Calibri, sans-serif;
+           color: black;
+          }
+
+
+    /*Tabellenkopf bestimmen*/
+    .Tabelle thead tr{
+                      background-color: dimgrey;
+                      color: black;
+                      }
+
     body {
-      height: 100vh;
-      background-color:white;
-      display: block;
-      justify-content: center;
-      }
+          height: 50vh;
+          background-image: url();
+          background-repeat: no-repeat;
+          background-position:center ;
+          display: block;
+          justify-content: center;
+          }
 
 
-
-    /*Tabellenrand*/
-        table,td{
-        border:4px solid;
-        border-collapse: collapse
-        }
-
-    /*Tabellengröße*/
-        table{
-        font-size: 20px;
-        }
+    /*Tabellenrand bestimmen*/
+     table,td{
+              border:4px solid;
+              border-collapse: collapse
+              }
 
     /*Zellen*/
-        td, th{
-        border: 2px solid
-        }
+     td, th{
+            border: 2px solid
+           }
   </style>
 </head>
 
 
 <body>
-<table>
+
   <!--1.Herren-->
-  <tr>
-    <th>1.Herren</th>
-    <th>Datum</th>
-    <th>Uhrzeit</th>
-    <th>Spielort</th>
-  </tr>
+
+  <table class="Tabelle">
+
+    <thead>
+    <tr>
+      <th>1.Herren</th>
+      <th>Datum</th>
+      <th>Uhrzeit</th>
+      <th>Spielort</th>
+    </tr>
+    </thead>
   <tr>
     <td>11.Spieltag</td>
     <td>19.03.2022</td>
@@ -110,16 +124,19 @@
   </tr>
 </table>
 
-<br>
+  <br>
 
-<table>
   <!--2.Herren-->
+
+  <table class="Tabelle">
+  <thead>
   <tr>
     <th>2.Herren</th>
     <th>Datum</th>
     <th>Uhrzeit</th>
     <th>Spielort</th>
   </tr>
+  </thead>
   <tr>
     <td>9.Spieltag</td>
     <td>19.03.2022</td>
@@ -176,14 +193,17 @@
 
 <br>
 
-<table>
   <!--A-Jugend-->
-  <tr>
+
+  <table class="Tabelle">
+  <thead>
+   <tr>
     <th>A-Jugend</th>
     <th>Datum</th>
     <th>Uhrzeit</th>
     <th>Spielort</th>
-  </tr>
+   </tr>
+  </thead>
   <tr>
     <td>9.Spieltag</td>
     <td>11.03.2022</td>
@@ -236,14 +256,17 @@
 
 <br>
 
-<table>
   <!--B-Jugend-->
+
+  <table class="Tabelle">
+  <thead>
   <tr>
     <th>B-Jugend</th>
     <th>Datum</th>
     <th>Uhrzeit</th>
     <th>Spielort</th>
   </tr>
+  </thead>
   <tr>
     <td>6.Spieltag</td>
     <td>18.03.2022</td>
@@ -274,9 +297,5 @@
     <td>14.00 Uhr</td>
     <td>Heim</td>
   </tr>
-  <tr>
-
-
-</table>
 </body>
 </html>
