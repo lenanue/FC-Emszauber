@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="versuch 2">
+    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="feinschliff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bildergalerie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Anmeldeformular.html" beforeDir="false" afterPath="$PROJECT_DIR$/Anmeldeformular.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mannschaften.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mannschaften.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tickets.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tickets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vielen Dank für die Anmeldung.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vielen Dank für die Anmeldung.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
       <workItem from="1670534100710" duration="1530000" />
       <workItem from="1670535688499" duration="145000" />
       <workItem from="1670535905409" duration="720000" />
-      <workItem from="1670536814874" duration="315000" />
+      <workItem from="1670536814874" duration="1325000" />
     </task>
     <task id="LOCAL-00001" summary="Anmeldeformular">
       <created>1669994688377</created>
@@ -309,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670536617708</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="feinschliff">
+      <created>1670537140965</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1670537140965</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +353,7 @@
     <MESSAGE value="Anmeldeformular fertig&#10;Tickets fertig" />
     <MESSAGE value="Größe angepasst slideshow" />
     <MESSAGE value="versuch 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="versuch 2" />
+    <MESSAGE value="feinschliff" />
+    <option name="LAST_COMMIT_MESSAGE" value="feinschliff" />
   </component>
 </project>
