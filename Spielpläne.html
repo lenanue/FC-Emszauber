@@ -1,304 +1,385 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!--Dokumententyp festlegen-->
+<html lang="en"> <!--Programmiersprache festlegen-->
 <head>
-  <meta charset="UTF-8">
-  <title>Spielpläne Rückrunde</title>
+  <meta charset="UTF-8"> <!--Umlaute verwenden-->
+  <title>Spielplan Rückrunde</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--IE soll im höchsten verfügbaren Modus laufen-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Größenangabe für PC/Laptop-->
 
   <style>
-    /*Schriftgröße_Tabellengröße_Schriftfarbe*/
-     table{
-           font-size: 30px;
-          }
-         *{
-           margin: 20px;
-           padding: 7px;
-           min-width: 10px;
-           font-family: Calibri, sans-serif;
-           color: black;
-          }
+    body { /*Hintergrundfarbe bestimmen; Seitenabstand festlegen*/
+      background-color: #F3F5F6;
+      padding-left: 100px;
+      padding-right: 100px;}
 
+    .header-image { /*Grafik zur Homepage gestaltung anpassen */
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      object-position: 50% 50%;
+      display: block;}
+
+    .headline { /*Name des Vereins: Farbe und größe anpassen*/
+      color: mediumblue;
+      flex: 1;
+      font-size: 40px;}
+
+    .image-container { /*Inhalt der Homepage von dem Hintergrund abheben*/
+      background-color: white;
+      padding: 16px;}
+
+    .navbar { /*Menüleiste anpassen*/
+      display: flex;
+      justify-content: space-between; /*Aufteilung der Menüleiste und Logo in zwei Schichten*/
+      align-items: center;
+      font-weight: 700;}
+
+    a { /*Link design*/
+      color: mediumblue;
+      text-decoration: none;
+      margin-left: 16px;
+      font-weight: 700;}
+
+    a:hover { /*Link wird sichtbar, wenn man mit der Maus über den Text geht*/
+      text-decoration: underline;}
+
+    .text-highlight { /*Slogan unter dem Vereinsnamen hervorheben*/
+      color: dimgrey;
+      font-size: 25px;}
+
+    .legal-content { /*Impressum und Datenschutz*/
+      padding: 8px;}
+
+    .legal-text {
+      margin-right: 16px}
+
+    .Herren { /*Container für Anmeldebereich*/
+      margin-top: 16px;
+      display: flex;
+      justify-content: space-between;}
+    .erste-Herren { /*Größe Text Anmeldebereich*/
+      border: 0;
+      width: 50%;}
+    .zweite-Herren { /*Größe und Design des Anmeldeformular anpassen*/
+      border: 0;
+      width: 50%;}
+
+    .Jugend { /*Container für Anmeldebereich*/
+      margin-top: 16px;
+      display: flex;
+      justify-content: space-between;}
+    .A-Jugend { /*Größe Text Anmeldebereich*/
+      border: 0;
+      width: 50%;}
+    .B-Jugend { /*Größe und Design des Anmeldeformular anpassen*/
+      border: 0;
+      width: 50%;}
+
+    .wappen-header {
+      padding-right: 30px; /*Abstand zu Vereinslogo und Slogan vergrößern*/}
+
+    a.eins { /*Aussehen der Links für den Navigationsbereich anpassen*/
+      font-size: 25px;
+      margin: 20px;} /*Abstand vergrößern*/
+
+    /*Schriftgröße_Tabellengröße_Schriftfarbe*/
+    table{
+      font-size: 30px;}
 
     /*Tabellenkopf bestimmen*/
     .Tabelle thead tr{
-                      background-color: dimgrey;
-                      color: black;
-                      }
-
-    body {
-          height: 50vh;
-          background-image: url();
-          background-repeat: no-repeat;
-          background-position:center ;
-          display: block;
-          justify-content: center;
-          }
-
+      background-color: dimgrey;
+      color: black;}
 
     /*Tabellenrand bestimmen*/
-     table,td{
-              border:4px solid;
-              border-collapse: collapse
-              }
+    table,td{
+      border:4px solid;
+      border-collapse: collapse}
 
     /*Zellen*/
-     td, th{
-            border: 2px solid
-           }
-
-     .Herren{justify-content: space-between}
+    td, th{
+      border: 2px solid}
 
   </style>
+
 </head>
 
 <body>
-    <!--1.Herren-->
-<div class="Herren">
-  <table class="Tabelle">
+<div class="navbar">
+  <div class="wappen-header"> <img src="Wappen.png"; width="100"; height="200";> </div>
+  <h1 class="headline">
+    FC Emszauber e.V.<br> <span class="text-highlight">Wir zaubern an der Ems</span>
+  </h1>
 
-    <thead>
-    <tr>
-      <th>1.Herren</th>
-      <th>Datum</th>
-      <th>Uhrzeit</th>
-      <th>Spielort</th>
-    </tr>
-    </thead>
-  <tr>
-    <td>11.Spieltag</td>
-    <td>19.03.2022</td>
-    <td>15.00 Uhr</td>
-    <td>Heim</td>
-  </tr>
-  <tr>
-    <td>12.Spieltag</td>
-    <td>26.03.2022</td>
-    <td>15.00 Uhr</td>
-    <td>Auswärts</td>
-  </tr>
-  <tr>
-    <td>13.Spieltag</td>
-    <td>02.04.2022</td>
-    <td>15.00 Uhr</td>
-    <td>Heim</td>
-  </tr>
-  <tr>
-    <td>14.Spieltag</td>
-    <td>16.04.2022</td>
-    <td>15.00 Uhr</td>
-    <td>Auswärts</td>
-  </tr>
-  <tr>
-    <td>15.Spieltag</td>
-    <td>23.04.2022</td>
-    <td>15.00 Uhr</td>
-    <td>Heim</td>
-  </tr>
-  <tr>
-    <td>16.Spieltag</td>
-    <td>30.04.2022</td>
-    <td>15.00 Uhr</td>
-    <td>Auswärts</td>
-  </tr>
-  <tr>
-    <td>17.Spieltag</td>
-    <td>07.05.2022</td>
-    <td>15.00 Uhr</td>
-    <td>Heim</td>
-  </tr>
-  <tr>
-    <td>18.Spieltag</td>
-    <td>14.05.2022</td>
-    <td>15.00 Uhr</td>
-    <td>Auswärts</td>
-  </tr>
-  <tr>
-    <td>19.Spieltag</td>
-    <td>26.05.2022</td>
-    <td>19.30 Uhr</td>
-    <td>Heim</td>
-  </tr>
-  <tr>
-    <td>20.Spieltag</td>
-    <td>02.06.2022</td>
-    <td>19.30 Uhr</td>
-    <td>Auswärts</td>
-  </tr>
-</table>
-
-  <br>
-
-  <!--2.Herren-->
-
-  <table class="Tabelle">
-  <thead>
-  <tr>
-    <th>2.Herren</th>
-    <th>Datum</th>
-    <th>Uhrzeit</th>
-    <th>Spielort</th>
-  </tr>
-  </thead>
-  <tr>
-    <td>9.Spieltag</td>
-    <td>19.03.2022</td>
-    <td>15.00 Uhr</td>
-    <td>Auswärts</td>
-  </tr>
-  <tr>
-    <td>10.Spieltag</td>
-    <td>26.03.2022</td>
-    <td>15.00 Uhr</td>
-    <td>Heim</td>
-  </tr>
-  <tr>
-    <td>11.Spieltag</td>
-    <td>02.04.2022</td>
-    <td>13.00 Uhr</td>
-    <td>Heim</td>
-  </tr>
-  <tr>
-    <td>12.Spieltag</td>
-    <td>16.04.2022</td>
-    <td>13.00 Uhr</td>
-    <td>Auswärts</td>
-  </tr>
-  <tr>
-    <td>13.Spieltag</td>
-    <td>23.04.2022</td>
-    <td>15.00 Uhr</td>
-    <td>Auswärts</td>
-  </tr>
-  <tr>
-    <td>14.Spieltag</td>
-    <td>30.04.2022</td>
-    <td>15.00 Uhr</td>
-    <td>Auswärts</td>
-  </tr>
-  <tr>
-    <td>15.Spieltag</td>
-    <td>Spielfrei</td>
-  </tr>
-  <tr>
-    <td>16.Spieltag</td>
-    <td>14.05.2022</td>
-    <td>13.00 Uhr</td>
-    <td>Heim</td>
-  </tr>
-  <tr>
-    <td>17.Spieltag</td>
-    <td>14.05.2022</td>
-    <td>13.00 Uhr</td>
-    <td>Heim</td>
-  </tr>
-</table>
+  <div>
+    <a class="eins" href="Index.html">Hauptmenü</a>
+    <a class="eins" href="Mannschaften.html">Mannschaften</a>
+    <a class="eins" href="Bildergalerie.html">Bildergalerie</a>
+    <a class="eins" href="Tickets.html">Tickets</a>
+    <a class="eins" href="Anmeldeformular.html">Mitglied werden</a>
+  </div>
 </div>
 
-<br>
 
-  <!--A-Jugend-->
 
-  <table class="Tabelle">
-  <thead>
-   <tr>
-    <th>A-Jugend</th>
-    <th>Datum</th>
-    <th>Uhrzeit</th>
-    <th>Spielort</th>
-   </tr>
-  </thead>
-  <tr>
-    <td>9.Spieltag</td>
-    <td>11.03.2022</td>
-    <td>12.00 Uhr</td>
-    <td>Heim</td>
-  </tr>
-  <tr>
-    <td>10.Spieltag</td>
-    <td>18.03.2022</td>
-    <td>12.00 Uhr</td>
-    <td>Auswärts</td>
-  </tr>
-  <tr>
-    <td>11.Spieltag</td>
-    <td>22.03.2022</td>
-    <td>19.00 Uhr</td>
-    <td>Auswärts</td>
-  </tr>
-  <tr>
-    <td>12.Spieltag</td>
-    <td>15.04.2022</td>
-    <td>16.00 Uhr</td>
-    <td>Heim</td>
-  </tr>
-  <tr>
-    <td>13.Spieltag</td>
-    <td>23.04.2022</td>
-    <td>15.00 Uhr</td>
-    <td>Auswärts</td>
-  </tr>
-  <tr>
-    <td>14.Spieltag</td>
-    <td>19.04.2022</td>
-    <td>18.30 Uhr</td>
-    <td>Heim</td>
-  </tr>
-  <tr>
-    <td>15.Spieltag</td>
-    <td>29.04.2022</td>
-    <td>13:00 Uhr</td>
-    <td>Auswärts</td>
-  </tr>
-  <tr>
-    <td>16.Spieltag</td>
-    <td>14.05.2022</td>
-    <td>13.00 Uhr</td>
-    <td>Heim</td>
-  </tr>
-</table>
+<div class="image-container">
+  <img class="header-image" src="Ball%20vor%20Tor.jpg">
 
-<br>
+  <div class="Herren">
+    <div class="erste-Herren">
+      <table class="Tabelle">
 
-  <!--B-Jugend-->
+        <thead>
+        <tr>
+          <th>1.Herren</th>
+          <th>Datum</th>
+          <th>Uhrzeit</th>
+          <th>Spielort</th>
+        </tr>
+        </thead>
+        <tr>
+          <td>11.Spieltag</td>
+          <td>19.03.2022</td>
+          <td>15.00 Uhr</td>
+          <td>Heim</td>
+        </tr>
+        <tr>
+          <td>12.Spieltag</td>
+          <td>26.03.2022</td>
+          <td>15.00 Uhr</td>
+          <td>Auswärts</td>
+        </tr>
+        <tr>
+          <td>13.Spieltag</td>
+          <td>02.04.2022</td>
+          <td>15.00 Uhr</td>
+          <td>Heim</td>
+        </tr>
+        <tr>
+          <td>14.Spieltag</td>
+          <td>16.04.2022</td>
+          <td>15.00 Uhr</td>
+          <td>Auswärts</td>
+        </tr>
+        <tr>
+          <td>15.Spieltag</td>
+          <td>23.04.2022</td>
+          <td>15.00 Uhr</td>
+          <td>Heim</td>
+        </tr>
+        <tr>
+          <td>16.Spieltag</td>
+          <td>30.04.2022</td>
+          <td>15.00 Uhr</td>
+          <td>Auswärts</td>
+        </tr>
+        <tr>
+          <td>17.Spieltag</td>
+          <td>07.05.2022</td>
+          <td>15.00 Uhr</td>
+          <td>Heim</td>
+        </tr>
+        <tr>
+          <td>18.Spieltag</td>
+          <td>14.05.2022</td>
+          <td>15.00 Uhr</td>
+          <td>Auswärts</td>
+        </tr>
+        <tr>
+          <td>19.Spieltag</td>
+          <td>26.05.2022</td>
+          <td>19.30 Uhr</td>
+          <td>Heim</td>
+        </tr>
+        <tr>
+          <td>20.Spieltag</td>
+          <td>02.06.2022</td>
+          <td>19.30 Uhr</td>
+          <td>Auswärts</td>
+        </tr>
+      </table>
+    </div>
 
-  <table class="Tabelle">
-  <thead>
-  <tr>
-    <th>B-Jugend</th>
-    <th>Datum</th>
-    <th>Uhrzeit</th>
-    <th>Spielort</th>
-  </tr>
-  </thead>
-  <tr>
-    <td>6.Spieltag</td>
-    <td>18.03.2022</td>
-    <td>12.00 Uhr</td>
-    <td>Auswärts</td>
-  </tr>
-  <tr>
-    <td>7.Spieltag</td>
-    <td>25.03.2022</td>
-    <td>16.00 Uhr</td>
-    <td>Heim</td>
-  </tr>
-  <tr>
-    <td>8.Spieltag</td>
-    <td>14.04.2022</td>
-    <td>18.30 Uhr</td>
-    <td>Auswärts</td>
-  </tr>
-  <tr>
-    <td>9.Spieltag</td>
-    <td>07.05.2022</td>
-    <td>11.00 Uhr</td>
-    <td>Auswärts</td>
-  </tr>
-  <tr>
-    <td>10.Spieltag</td>
-    <td>20.05.2022</td>
-    <td>14.00 Uhr</td>
-    <td>Heim</td>
-  </tr>
-  </table>
+    <!--2.Herren-->
+    <div class="zweite-Herren">
+      <table class="Tabelle">
+        <thead>
+        <tr>
+          <th>2.Herren</th>
+          <th>Datum</th>
+          <th>Uhrzeit</th>
+          <th>Spielort</th>
+        </tr>
+        </thead>
+        <tr>
+          <td>9.Spieltag</td>
+          <td>19.03.2022</td>
+          <td>15.00 Uhr</td>
+          <td>Auswärts</td>
+        </tr>
+        <tr>
+          <td>10.Spieltag</td>
+          <td>26.03.2022</td>
+          <td>15.00 Uhr</td>
+          <td>Heim</td>
+        </tr>
+        <tr>
+          <td>11.Spieltag</td>
+          <td>02.04.2022</td>
+          <td>13.00 Uhr</td>
+          <td>Heim</td>
+        </tr>
+        <tr>
+          <td>12.Spieltag</td>
+          <td>16.04.2022</td>
+          <td>13.00 Uhr</td>
+          <td>Auswärts</td>
+        </tr>
+        <tr>
+          <td>13.Spieltag</td>
+          <td>23.04.2022</td>
+          <td>15.00 Uhr</td>
+          <td>Auswärts</td>
+        </tr>
+        <tr>
+          <td>14.Spieltag</td>
+          <td>30.04.2022</td>
+          <td>15.00 Uhr</td>
+          <td>Auswärts</td>
+        </tr>
+        <tr>
+          <td>15.Spieltag</td>
+          <td>Spielfrei</td>
+        </tr>
+        <tr>
+          <td>16.Spieltag</td>
+          <td>14.05.2022</td>
+          <td>13.00 Uhr</td>
+          <td>Heim</td>
+        </tr>
+        <tr>
+          <td>17.Spieltag</td>
+          <td>14.05.2022</td>
+          <td>13.00 Uhr</td>
+          <td>Heim</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="Jugend">
+    <!--A-Jugend-->
+    <div class="A-Jugend">
+      <table class="Tabelle">
+        <thead>
+        <tr>
+          <th>A-Jugend</th>
+          <th>Datum</th>
+          <th>Uhrzeit</th>
+          <th>Spielort</th>
+        </tr>
+        </thead>
+        <tr>
+          <td>9.Spieltag</td>
+          <td>11.03.2022</td>
+          <td>12.00 Uhr</td>
+          <td>Heim</td>
+        </tr>
+        <tr>
+          <td>10.Spieltag</td>
+          <td>18.03.2022</td>
+          <td>12.00 Uhr</td>
+          <td>Auswärts</td>
+        </tr>
+        <tr>
+          <td>11.Spieltag</td>
+          <td>22.03.2022</td>
+          <td>19.00 Uhr</td>
+          <td>Auswärts</td>
+        </tr>
+        <tr>
+          <td>12.Spieltag</td>
+          <td>15.04.2022</td>
+          <td>16.00 Uhr</td>
+          <td>Heim</td>
+        </tr>
+        <tr>
+          <td>13.Spieltag</td>
+          <td>23.04.2022</td>
+          <td>15.00 Uhr</td>
+          <td>Auswärts</td>
+        </tr>
+        <tr>
+          <td>14.Spieltag</td>
+          <td>19.04.2022</td>
+          <td>18.30 Uhr</td>
+          <td>Heim</td>
+        </tr>
+        <tr>
+          <td>15.Spieltag</td>
+          <td>29.04.2022</td>
+          <td>13:00 Uhr</td>
+          <td>Auswärts</td>
+        </tr>
+        <tr>
+          <td>16.Spieltag</td>
+          <td>14.05.2022</td>
+          <td>13.00 Uhr</td>
+          <td>Heim</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="B-Jugend">
+      <!--B-Jugend-->
+      <table class="Tabelle">
+        <thead>
+        <tr>
+          <th>B-Jugend</th>
+          <th>Datum</th>
+          <th>Uhrzeit</th>
+          <th>Spielort</th>
+        </tr>
+        </thead>
+        <tr>
+          <td>6.Spieltag</td>
+          <td>18.03.2022</td>
+          <td>12.00 Uhr</td>
+          <td>Auswärts</td>
+        </tr>
+        <tr>
+          <td>7.Spieltag</td>
+          <td>25.03.2022</td>
+          <td>16.00 Uhr</td>
+          <td>Heim</td>
+        </tr>
+        <tr>
+          <td>8.Spieltag</td>
+          <td>14.04.2022</td>
+          <td>18.30 Uhr</td>
+          <td>Auswärts</td>
+        </tr>
+        <tr>
+          <td>9.Spieltag</td>
+          <td>07.05.2022</td>
+          <td>11.00 Uhr</td>
+          <td>Auswärts</td>
+        </tr>
+        <tr>
+          <td>10.Spieltag</td>
+          <td>20.05.2022</td>
+          <td>14.00 Uhr</td>
+          <td>Heim</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<div class="legal-content">
+  <span class="legal-text">(c) 2022 - FC Emszauber e.V.</span> | <a href="Impressum.html">Impressum und Datenschutz</a>
+</div>
+
 </body>
 </html>
