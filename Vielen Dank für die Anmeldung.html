@@ -2,12 +2,100 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Anmeldung</title>
+    <title>Index</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            background-color: #F3F5F6;
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        .headline {
+            color: mediumblue;
+            flex: 1;
+        }
+
+        .image-container {
+            background-color: white;
+            padding: 16px;
+            align-items: center;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 700;
+        }
+
+        a {
+            color: mediumblue;
+            text-decoration: none;
+            margin-left: 16px;
+            font-weight: 700;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .text-highlight {
+            color: #484846;
+            font-size: 25px;
+        }
+
+        .legal-content {
+            padding: 8px;
+        }
+
+        .legal-text {
+            margin-right: 16px
+        }
+
+        .wappen-header {
+            padding-right: 30px;
+        }
+
+        a.eins {
+            font-size: 25px;
+            margin: 20px;
+        }
+
+    </style>
+
 </head>
+
 <body>
+<div class="navbar">
+    <div class="wappen-header"> <img src="Wappen.png"; width="100"; height="200";> </div>
+    <h1 class="headline">
+        FC Emszauber e.V.<br> <span class="text-highlight">Wir zaubern an der Ems</span>
+    </h1>
 
-Ihre Anmeldung war erfolgreich
+    <div>
+        <a class="eins" href="Spielpläne.html">Termine</a>
+        <a class="eins" href="Mannschaften.html">Mannschaften</a>
+        <a class="eins" href="Tickets.html">Tickets</a>
+        <a class="eins" href="Anmeldeformular.html">Mitglied werden</a>
+    </div>
+</div>
 
+
+
+<div class="image-container">
+
+ Ihre Anmeldung war erfolgreich!<br>
+ Sie können dieses Fenster nun schließen.
+
+</div>
+
+<div class="legal-content">
+    <span class="legal-text">(c) 2022 - FC Emszauber e.V.</span> | <a href="Impressum.html">Impressum und Datenschutz</a>
+</div>
 
 </body>
 </html>
