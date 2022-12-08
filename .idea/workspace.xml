@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Bildergalerie weg">
+    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Mannschaften">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mannschaften.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mannschaften.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vielen Dank für die Anmeldung.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vielen Dank für die Anmeldung.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tickets.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tickets.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,8 @@
       <workItem from="1670352297437" duration="167000" />
       <workItem from="1670483877203" duration="6984000" />
       <workItem from="1670490908495" duration="943000" />
-      <workItem from="1670491955063" duration="1282000" />
+      <workItem from="1670491955063" duration="1314000" />
+      <workItem from="1670493388055" duration="1424000" />
     </task>
     <task id="LOCAL-00001" summary="Anmeldeformular">
       <created>1669994688377</created>
@@ -265,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670492136026</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Mannschaften">
+      <created>1670493255573</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1670493255573</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +305,7 @@
     <MESSAGE value="Spielpläne überarbeitet5" />
     <MESSAGE value="Spielpläne FERTIG!!!" />
     <MESSAGE value="Bildergalerie weg" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bildergalerie weg" />
+    <MESSAGE value="Mannschaften" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mannschaften" />
   </component>
 </project>
