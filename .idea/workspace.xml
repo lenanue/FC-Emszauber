@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Größe angepasst slideshow">
+    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="versuch 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bildergalerie.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mannschaften.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mannschaften.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tickets.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tickets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vielen Dank für die Anmeldung.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vielen Dank für die Anmeldung.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +82,8 @@
       <workItem from="1670528823210" duration="4374000" />
       <workItem from="1670534100710" duration="1530000" />
       <workItem from="1670535688499" duration="145000" />
-      <workItem from="1670535905409" duration="666000" />
+      <workItem from="1670535905409" duration="720000" />
+      <workItem from="1670536814874" duration="315000" />
     </task>
     <task id="LOCAL-00001" summary="Anmeldeformular">
       <created>1669994688377</created>
@@ -297,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670535627931</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="versuch 2">
+      <created>1670536617708</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1670536617708</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +347,7 @@
     <MESSAGE value="Mannschaften angefangen" />
     <MESSAGE value="Anmeldeformular fertig&#10;Tickets fertig" />
     <MESSAGE value="Größe angepasst slideshow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Größe angepasst slideshow" />
+    <MESSAGE value="versuch 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="versuch 2" />
   </component>
 </project>
