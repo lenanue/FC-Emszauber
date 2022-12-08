@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Mannschaften angefangen">
+    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Anmeldeformular fertig&#10;Tickets fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Anmeldeformular.html" beforeDir="false" afterPath="$PROJECT_DIR$/Anmeldeformular.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tickets.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tickets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mannschaften.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mannschaften.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +76,8 @@
       <workItem from="1670493388055" duration="1606000" />
       <workItem from="1670499055803" duration="139000" />
       <workItem from="1670528440405" duration="140000" />
-      <workItem from="1670528823210" duration="4272000" />
+      <workItem from="1670528823210" duration="4374000" />
+      <workItem from="1670534100710" duration="1435000" />
     </task>
     <task id="LOCAL-00001" summary="Anmeldeformular">
       <created>1669994688377</created>
@@ -282,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670494994594</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Anmeldeformular fertig&#10;Tickets fertig">
+      <created>1670533205220</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1670533205220</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +325,7 @@
     <MESSAGE value="Bildergalerie weg" />
     <MESSAGE value="Mannschaften" />
     <MESSAGE value="Mannschaften angefangen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mannschaften angefangen" />
+    <MESSAGE value="Anmeldeformular fertig&#10;Tickets fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anmeldeformular fertig&#10;Tickets fertig" />
   </component>
 </project>
