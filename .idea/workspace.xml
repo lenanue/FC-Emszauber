@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Mannschaften">
+    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Mannschaften angefangen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Anmeldeformular.html" beforeDir="false" afterPath="$PROJECT_DIR$/Anmeldeformular.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tickets.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tickets.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +74,10 @@
       <workItem from="1670483877203" duration="6984000" />
       <workItem from="1670490908495" duration="943000" />
       <workItem from="1670491955063" duration="1314000" />
-      <workItem from="1670493388055" duration="1424000" />
+      <workItem from="1670493388055" duration="1606000" />
+      <workItem from="1670499055803" duration="139000" />
+      <workItem from="1670528440405" duration="140000" />
+      <workItem from="1670528823210" duration="4272000" />
     </task>
     <task id="LOCAL-00001" summary="Anmeldeformular">
       <created>1669994688377</created>
@@ -271,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670493255573</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Mannschaften angefangen">
+      <created>1670494994594</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1670494994594</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +317,7 @@
     <MESSAGE value="Spielpläne FERTIG!!!" />
     <MESSAGE value="Bildergalerie weg" />
     <MESSAGE value="Mannschaften" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mannschaften" />
+    <MESSAGE value="Mannschaften angefangen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mannschaften angefangen" />
   </component>
 </project>
