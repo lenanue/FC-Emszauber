@@ -159,10 +159,10 @@
     <div class="Anmeldeformular"><!--extra Container, damit das Formular auf der rechten Seite angezeigt wird-->
       <fieldset>
         <legend>Anmeldeformular</legend>
-        <form>
+        <form name="Anmeldung" method="post" action="Anmeldeformular.php">
           <table class="Tabelle AF"> <!--Tabelle: th=Spalten; td=Zeilen ; Unsichtabre Tabelle für Übersichtlichkeit; Pflichtfeld-->
             <tr>  <th align=right>Vorname: </th>
-                <td> <input class="kästchen-groesse"; type="text" required ></td>
+                <td> <input class="kästchen-groesse" name="Vorname" id="Vorname" type="text" required ></td>
                 <th align="right">Nachname: </th>
                 <td> <input class="kästchen-groesse"; type="text" required ></td>
             </tr>
@@ -189,11 +189,14 @@
                <td> <input class="kästchen-groesse"; type="number" required ></td>
             </tr>
           </table>
+          <p>
+            <button type="submit" name="Anmelden" id="Anmelden" value="Anmelden">Anmelden </button>
+          </p>
         </form>
-            <!--Button mit Link, welcher auf eine "Danke für Ihre Anmeldung" Homepage führt-->
-          <form method="get" action="Vielen%20Dank%20für%20die%20Anmeldung.html">
-            <button class="ButtonClass" type="submit" >Anmelden </button>
-          </form>
+<!--            &lt;!&ndash;Button mit Link, welcher auf eine "Danke für Ihre Anmeldung" Homepage führt&ndash;&gt;-->
+<!--          <form method="get" action="Vielen%20Dank%20für%20die%20Anmeldung.html">-->
+<!--            <button class="ButtonClass" type="submit" >Anmelden </button>-->
+<!--          </form>-->
       </fieldset>
     </div>
   </div>
