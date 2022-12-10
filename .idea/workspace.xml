@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="mannschaften">
+    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Mannschaften fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mannschaften.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mannschaften.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tickets.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tickets.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,8 @@
       <workItem from="1670536814874" duration="2076000" />
       <workItem from="1670669988104" duration="673000" />
       <workItem from="1670674245780" duration="1753000" />
-      <workItem from="1670676050029" duration="311000" />
+      <workItem from="1670676050029" duration="375000" />
+      <workItem from="1670676438410" duration="89000" />
     </task>
     <task id="LOCAL-00001" summary="Anmeldeformular">
       <created>1669994688377</created>
@@ -323,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670538889039</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Mannschaften fertig">
+      <created>1670676419947</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1670676419947</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,6 +372,7 @@
     <MESSAGE value="versuch 2" />
     <MESSAGE value="feinschliff" />
     <MESSAGE value="mannschaften" />
-    <option name="LAST_COMMIT_MESSAGE" value="mannschaften" />
+    <MESSAGE value="Mannschaften fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mannschaften fertig" />
   </component>
 </project>
