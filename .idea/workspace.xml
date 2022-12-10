@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="feinschliff">
+    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="mannschaften">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Anmeldeformular.html" beforeDir="false" afterPath="$PROJECT_DIR$/Anmeldeformular.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mannschaften.html" beforeDir="false" afterPath="$PROJECT_DIR$/Mannschaften.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +80,10 @@
       <workItem from="1670534100710" duration="1530000" />
       <workItem from="1670535688499" duration="145000" />
       <workItem from="1670535905409" duration="720000" />
-      <workItem from="1670536814874" duration="1325000" />
+      <workItem from="1670536814874" duration="2076000" />
+      <workItem from="1670669988104" duration="673000" />
+      <workItem from="1670674245780" duration="1753000" />
+      <workItem from="1670676050029" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="Anmeldeformular">
       <created>1669994688377</created>
@@ -314,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670537140965</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="mannschaften">
+      <created>1670538889039</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1670538889039</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +363,7 @@
     <MESSAGE value="Größe angepasst slideshow" />
     <MESSAGE value="versuch 2" />
     <MESSAGE value="feinschliff" />
-    <option name="LAST_COMMIT_MESSAGE" value="feinschliff" />
+    <MESSAGE value="mannschaften" />
+    <option name="LAST_COMMIT_MESSAGE" value="mannschaften" />
   </component>
 </project>
