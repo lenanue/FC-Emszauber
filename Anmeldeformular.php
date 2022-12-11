@@ -5,9 +5,9 @@ $db_link = mysqli_connect("localhost","root","","emszauber");
 $vorname = $_POST['Vorname'];
 $nachname = $_POST['Nachname'];
 $geburtsdatum = $_POST['Geburtsdatum'];
-$strasse = $_POST['Straße'];
+$strasse = $_POST['Strasse'];
 $hausnummer = $_POST['Hausnummer'];
-$postleitzahl = $_POST['Postlzeitzahl'];
+$postleitzahl = $_POST['Postleitzahl'];
 $ort = $_POST['Ort'];
 $telefonnummer = $_POST['Telefonnummer'];
 $mobilnummer = $_POST['Mobilnummer'];
@@ -18,7 +18,8 @@ $rs = mysqli_query($db_link, $sql);
 
 if($rs)
 {
-    echo "Contact Records Inserted";
+    header('location: Anmeldung_succes.html');
+    exit();
 }
 
 ?>
