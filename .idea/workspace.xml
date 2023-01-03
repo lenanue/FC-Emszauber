@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Anmeldeformular.html" beforeDir="false" afterPath="$PROJECT_DIR$/Anmeldeformular.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tickets.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tickets.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +85,7 @@
       <workItem from="1670674245780" duration="1753000" />
       <workItem from="1670676050029" duration="375000" />
       <workItem from="1670676438410" duration="191000" />
-      <workItem from="1670922489854" duration="535000" />
-      <workItem from="1671026761434" duration="315000" />
-      <workItem from="1671027079611" duration="62000" />
-      <workItem from="1671283294589" duration="181000" />
-      <workItem from="1672755872331" duration="303000" />
+      <workItem from="1670922489854" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="Anmeldeformular">
       <created>1669994688377</created>
@@ -343,14 +339,7 @@
       <option name="project" value="LOCAL" />
       <updated>1670676564692</updated>
     </task>
-    <task id="LOCAL-00037" summary="Fertig">
-      <created>1670922921718</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1670922921718</updated>
-    </task>
-    <option name="localTasksCounter" value="38" />
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
