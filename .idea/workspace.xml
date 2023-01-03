@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Fertig">
+    <list default="true" id="e0fc1762-186c-4ee9-a96a-d993dd74d3b9" name="Changes" comment="Link Anmeldeformular richtige Anschrift">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tickets.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tickets.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -339,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670676564692</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Link Anmeldeformular richtige Anschrift">
+      <created>1672756298538</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1672756298538</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +363,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Anmeldeformular überarbeitet" />
     <MESSAGE value="Impressum in Index verlinkt" />
     <MESSAGE value="Impressum in Index verlinkt&#10;Fusszeile" />
     <MESSAGE value="Navigationsleisten eingefügt" />
@@ -382,6 +387,7 @@
     <MESSAGE value="mannschaften" />
     <MESSAGE value="Mannschaften fertig" />
     <MESSAGE value="Fertig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fertig" />
+    <MESSAGE value="Link Anmeldeformular richtige Anschrift" />
+    <option name="LAST_COMMIT_MESSAGE" value="Link Anmeldeformular richtige Anschrift" />
   </component>
 </project>
